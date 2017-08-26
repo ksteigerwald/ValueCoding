@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.build/master.swiftdeps"
+  },
+  "/Users/velaru/work/ValueCoding/Sources/ValueCoding.swift": {
+    "dependencies": "/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.build/ValueCoding.d",
+    "object": "/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.build/ValueCoding.swift.o",
+    "swiftmodule": "/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.build/ValueCoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.build/ValueCoding.swiftdeps"
+  }
+}

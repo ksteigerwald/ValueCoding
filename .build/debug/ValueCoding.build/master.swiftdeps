@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "8bb81bf564a2b7cd984fc9b38112b05b"
+build_time: [557067367, 84461000]
+inputs:
+  "/Users/velaru/work/ValueCoding/Sources/ValueCoding.swift": [557067072, 0]

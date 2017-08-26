@@ -1,0 +1,24 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.build/ValueCoding.swift.o","/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.swiftmodule"]
+  "main": ["/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.build/ValueCoding.swift.o","/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.swiftmodule"]
+default: "main"
+commands: 
+  "<ValueCoding.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "ValueCoding"
+    module-output-path: "/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.swiftmodule"
+    inputs: ["/Users/velaru/work/ValueCoding/Sources/ValueCoding.swift"]
+    outputs: ["/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.build/ValueCoding.swift.o","/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.swiftmodule"]
+    import-paths: ["/Users/velaru/work/ValueCoding/.build/debug"]
+    temps-path: "/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.build"
+    objects: ["/Users/velaru/work/ValueCoding/.build/debug/ValueCoding.build/ValueCoding.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-module-cache-path","/Users/velaru/work/ValueCoding/.build/debug/ModuleCache"]
+    sources: ["/Users/velaru/work/ValueCoding/Sources/ValueCoding.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
